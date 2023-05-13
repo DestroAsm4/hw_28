@@ -28,7 +28,7 @@ def to_json(csv_file, json_file, model):
 
 if __name__ == '__main__':
     to_json('ad.csv', 'ad.json', 'hw_28_app.ad')
-    # to_json('category.csv', 'categories.json', 'hw_28_app.categories')
+    to_json('category.csv', 'categories.json', 'hw_28_app.categories')
 
-    # to_json('user.csv', 'user.json', 'user.user')
-    # to_json('location.csv', 'location.json', 'user.location')
+    to_json('user.csv', 'user.json', 'user.user')
+    to_json('location.csv', 'location.json', 'user.location')
